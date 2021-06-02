@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Pair Programming</title>
+</head>
+<body>
+    <header class="header" data-header>
+        <button class="header__button" data-button>
+            Menu
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">About</li>
+                <li class="nav__item">List</li>
+                <li class="nav__item">Contact Me</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <form class="form">
+            <div class="field">
+                <label for="username" class="field__label">Username</label>
+                <input class="field__input" type="text" required name="username" id="username">
+                <p class="field__feedback">
+                    You fill the field :)
+                </p>
+            </div>
+
+            <div class="field">
+                <label class="field__label" for="password">Password</label>
+                <input class="field__input" type="password" required name="password" id="password">
+                <p class="field__feedback">
+                    You fill the field :)
+                </p>
+            </div>
+
+            <button class="button">Entrar</button>
+        </form>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
